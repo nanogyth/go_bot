@@ -1,3 +1,9 @@
+/**
+ * This reference implementation of getMove() is pulled with minimal changes
+ * from source at https://github.com/bitburner-official/bitburner-src/tree/dev/src/Go
+ * Most changes are marked with // ###
+ */
+
 export async function main(ns: NS) {
   const sb = [
     ".....",
@@ -34,6 +40,11 @@ export function boardStateFromSimpleBoard(
     cheatCountForWhite: 0,
   }
 }
+
+/*
+ * The code below falls under Apache 2.0 with Commons Clause
+ * apache_cc_LICENSE.txt
+ */
 
 // src/Go/Enums.ts
 export enum GoColor {
